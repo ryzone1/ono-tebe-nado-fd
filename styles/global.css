@@ -10,6 +10,7 @@ body {
   font-family: Raleway, sans-serif;
 }
 
+p,
 h1,
 h2,
 h3,
@@ -28,13 +29,19 @@ span {
 
 a {
   color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
 img {
   width: 100%;
 }
 
-button {
+
+address,
+button,
+p {
   font: inherit;
   all: unset;
   
